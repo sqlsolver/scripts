@@ -1,0 +1,1 @@
+Get-SPWebApplication https://devcollaborate.gilead.com | Get-SPSite -Limit All | Get-SPWeb -Limit All | Select Title, URL, ParentWeb, Site, WebTemplate, Created  | Export-CSV C:\InfoArch.csv -NoTypeInformation

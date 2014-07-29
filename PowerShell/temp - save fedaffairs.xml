@@ -1,0 +1,10 @@
+﻿		<Web>
+			WebUrl="https://devcollaborate.gilead.com/corp/GovAffairs  "
+			Template="STS#0"
+			Name="Federal International"
+			Description="Federal International"
+			UseParentTopNav=$true
+			AddToQuickLaunch=$true
+			UniquePermissions=$false
+			Language=1033
+		</Web>
