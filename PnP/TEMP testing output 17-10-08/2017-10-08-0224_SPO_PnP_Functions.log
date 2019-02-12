@@ -1,0 +1,136 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171008022446
+Username: MAGENIC\RamonaM
+RunAs User: MAGENIC\RamonaM
+Machine: RAMONAM-PC3 (Microsoft Windows NT 10.0.15063.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking;
+Process ID: 1736
+PSVersion: 5.1.15063.632
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.15063.632
+BuildVersion: 10.0.15063.632
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\2017-10-08-0224_SPO_PnP_Functions.log
+PS C:\users\ramonam\onedrive\magenic\vs\scripts\pnp> TerminatingError(Connect-PnPOnline): "Cannot bind argument to parameter 'Url' because it is null."
+Connect-PnPOnline : Cannot bind argument to parameter 'Url' because it is null.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:44 char:25
++     Connect-PnPOnline -Url $webParams.Config.Tenant -Credentials (Get ...
++                            ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Connect-PnPOnline], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,SharePointPnP.PowerShell.Commands.Base.ConnectOnline
+Connect-PnPOnline : Cannot bind argument to parameter 'Url' because it is null.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:44 char:25
++     Connect-PnPOnline -Url $webParams.Config.Tenant -Credentials (Get ...
++                            ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Connect-PnPOnline], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,SharePointPnP.PowerShell.Commands.Base.ConnectOnline
+
+================ PnP Function Chooser ================
+1: Press '1' to create a new Site Collection.
+2: Press '2' to create a new subweb.
+3: Press '3' to extract a site template from an existing Site Collection.
+3: Press '4' to extract a site template from an existing subweb.
+5: Press '4' to apply a site template to an existing site or subsite.
+Q: Press 'Q' to quit.
+pullSiteCollectionTemplateTemplate : The term 'pullSiteCollectionTemplateTemplate' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:177 char:11
++            '3' {pullSiteCollectionTemplateTemplate}
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pullSiteCollectionTemplateTemplate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pullSiteCollectionTemplateTemplate : The term 'pullSiteCollectionTemplateTemplate' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:177 char:11
++            '3' {pullSiteCollectionTemplateTemplate}
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pullSiteCollectionTemplateTemplate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+================ PnP Function Chooser ================
+1: Press '1' to create a new Site Collection.
+2: Press '2' to create a new subweb.
+3: Press '3' to extract a site template from an existing Site Collection.
+3: Press '4' to extract a site template from an existing subweb.
+5: Press '4' to apply a site template to an existing site or subsite.
+Q: Press 'Q' to quit.
+pullSiteCollectionTemplateTemplate : The term 'pullSiteCollectionTemplateTemplate' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:177 char:11
++            '3' {pullSiteCollectionTemplateTemplate}
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pullSiteCollectionTemplateTemplate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pullSiteCollectionTemplateTemplate : The term 'pullSiteCollectionTemplateTemplate' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:177 char:11
++            '3' {pullSiteCollectionTemplateTemplate}
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pullSiteCollectionTemplateTemplate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+================ PnP Function Chooser ================
+1: Press '1' to create a new Site Collection.
+2: Press '2' to create a new subweb.
+3: Press '3' to extract a site template from an existing Site Collection.
+3: Press '4' to extract a site template from an existing subweb.
+5: Press '4' to apply a site template to an existing site or subsite.
+Q: Press 'Q' to quit.
+pullSiteCollectionTemplateTemplate : The term 'pullSiteCollectionTemplateTemplate' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:177 char:11
++            '3' {pullSiteCollectionTemplateTemplate}
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pullSiteCollectionTemplateTemplate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pullSiteCollectionTemplateTemplate : The term 'pullSiteCollectionTemplateTemplate' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:177 char:11
++            '3' {pullSiteCollectionTemplateTemplate}
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pullSiteCollectionTemplateTemplate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+================ PnP Function Chooser ================
+1: Press '1' to create a new Site Collection.
+2: Press '2' to create a new subweb.
+3: Press '3' to extract a site template from an existing Site Collection.
+3: Press '4' to extract a site template from an existing subweb.
+5: Press '4' to apply a site template to an existing site or subsite.
+Q: Press 'Q' to quit.
+pullSiteCollectionTemplateTemplate : The term 'pullSiteCollectionTemplateTemplate' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:177 char:11
++            '3' {pullSiteCollectionTemplateTemplate}
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pullSiteCollectionTemplateTemplate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+pullSiteCollectionTemplateTemplate : The term 'pullSiteCollectionTemplateTemplate' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:177 char:11
++            '3' {pullSiteCollectionTemplateTemplate}
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pullSiteCollectionTemplateTemplate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+================ PnP Function Chooser ================
+1: Press '1' to create a new Site Collection.
+2: Press '2' to create a new subweb.
+3: Press '3' to extract a site template from an existing Site Collection.
+3: Press '4' to extract a site template from an existing subweb.
+5: Press '4' to apply a site template to an existing site or subsite.
+Q: Press 'Q' to quit.
+**********************
+Windows PowerShell transcript end
+End time: 20171008022528
+**********************

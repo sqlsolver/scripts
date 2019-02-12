@@ -1,0 +1,6 @@
+<PnPFilesMap xmlns="clr-namespace:OfficeDevPnP.Core.Framework.Provisioning.Connectors.OpenXML.Model;assembly=OfficeDevPnP.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <PnPFilesMap.Map>
+    <x:String x:Key="20af99ab-ed8e-4bbc-bd15-0dfbb9c2f7a4.resx">medsrc.en-US.resx</x:String>
+    <x:String x:Key="f12740b5-c3b6-46f2-b920-c77906b05f6c.xml">medsrc.xml</x:String>
+  </PnPFilesMap.Map>
+</PnPFilesMap>

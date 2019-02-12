@@ -1,0 +1,11 @@
+<Config>
+	<Tenant>
+		<Admin
+			adminURL="https://sharepointsolver-admin.sharepoint.com"
+		/>
+		<cdn
+			CDNtype="Private"
+			urlFragment="*as-*"
+		/>
+	</Tenant>
+</Config>

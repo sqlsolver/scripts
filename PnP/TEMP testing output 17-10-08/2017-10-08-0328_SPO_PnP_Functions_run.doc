@@ -1,0 +1,144 @@
+powershell.exe Information: 0 : 10/8/2017 10:28:18 AM: dada1841-9b2b-437a-9b94-f0b2cca60ad6 - AcquireTokenHandlerBase: === Token Acquisition started:
+	Authority: https://login.microsoftonline.com/common/
+	Resource: https://sharepointsolver-admin.sharepoint.com/
+	ClientId: 9bc3ab49-b65d-410a-85ad-de819febfddc
+	CacheType: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache (1 items)
+	Authentication Target: User
+	
+powershell.exe Information: 0 : 10/8/2017 10:28:18 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigating to 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://sharepointsolver-admin.sharepoint.com/&client_id=9bc3ab49-b65d-410a-85ad-de819febfddc&response_type=code&redirect_uri=https://oauth.spops.microsoft.com/&client-request-id=dada1841-9b2b-437a-9b94-f0b2cca60ad6&prompt=login&x-client-SKU=.NET&x-client-Ver=2.19.0.0&x-client-CPU=x64&x-client-OS=Microsoft Windows NT 10.0.15063.0'.
+powershell.exe Information: 0 : 10/8/2017 10:28:19 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigated to 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://sharepointsolver-admin.sharepoint.com/&client_id=9bc3ab49-b65d-410a-85ad-de819febfddc&response_type=code&redirect_uri=https://oauth.spops.microsoft.com/&client-request-id=dada1841-9b2b-437a-9b94-f0b2cca60ad6&prompt=login&x-client-SKU=.NET&x-client-Ver=2.19.0.0&x-client-CPU=x64&x-client-OS=Microsoft Windows NT 10.0.15063.0'.
+powershell.exe Information: 0 : 10/8/2017 10:28:36 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigating to 'https://login.microsoftonline.com/common/login'.
+powershell.exe Information: 0 : 10/8/2017 10:28:36 AM:  - WindowsFormsWebAuthenticationDialogBase: WebBrowser state: IsBusy: True, ReadyState: Complete, Created: True, Disposing: False, IsDisposed: False, IsOffline: False
+powershell.exe Information: 0 : 10/8/2017 10:28:36 AM:  - WindowsFormsWebAuthenticationDialogBase: WebBrowser state (after Stop): IsBusy: False, ReadyState: Complete, Created: True, Disposing: False, IsDisposed: False, IsOffline: False
+powershell.exe Information: 0 : 10/8/2017 10:28:37 AM: dada1841-9b2b-437a-9b94-f0b2cca60ad6 - TokenCache: Storing token in the cache...
+powershell.exe Information: 0 : 10/8/2017 10:28:37 AM: dada1841-9b2b-437a-9b94-f0b2cca60ad6 - TokenCache: An item was stored in the cache
+powershell.exe Information: 0 : 10/8/2017 10:28:37 AM: dada1841-9b2b-437a-9b94-f0b2cca60ad6 - AcquireTokenHandlerBase: === Token Acquisition finished successfully. An access token was retuned:
+	Access Token Hash: kf7b3Wig5UHydy5fsZ8irN2bofrnaaPV9smM7rSJ0tg=
+	Refresh Token Hash: sUkaN628WInpyV/wpEOKcKYYDILZJzJenNzl5rmJinc=
+	Expiration Time: 10/8/2017 11:28:37 AM +00:00
+	User Hash: FrhjvYT3JVzzkOAKcP5SQzBKdq2d4pNXof3KocTCBsY=
+	
+powershell.exe Error: 0 : 2017-10-08 03:29:17.1038	[OfficeDevPnP.Core]	[0]	[Error]	File medsrc.pnp not found in directory . Exception = Could not find file 'C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\medsrc.pnp'.	0ms	
+powershell.exe Information: 0 : 2017-10-08 03:29:17.4577	[Extraction]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:17.4577	[Extraction]	[14]	[Debug]	Base template available: STS0template	2ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:17.4577	[Extraction]	[14]	[Debug]	ProgressDelegate registered	2ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:17.4577	[Extraction]	[14]	[Debug]	MessagesDelegate registered	3ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:17.4577	[Extraction]	[14]	[Debug]	IncludeAllTermGroups is set to true	3ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:17.4577	[Extraction]	[14]	[Debug]	PersistBrandingFiles is set to true	3ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:22.8565	[Regional Settings]	[14]	[Debug]	Code execution scope started	10ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:23.3127	[Regional Settings]	[14]	[Debug]	Code execution scope ended	467ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:23.3159	[Supported UI Languages]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:23.7658	[Supported UI Languages]	[14]	[Debug]	Code execution scope ended	444ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:23.7816	[Audit Settings]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:24.2641	[Audit Settings]	[14]	[Debug]	Code execution scope ended	471ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:24.3042	[Site Security]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Skipping OOTB role definition Full Control	3057ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Skipping OOTB role definition Design	3057ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Skipping OOTB role definition Edit	3057ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Skipping OOTB role definition Contribute	3057ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Skipping OOTB role definition Read	3057ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Skipping OOTB role definition Limited Access	3057ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom role definition View Only	3058ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition EmptyMask	3058ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ViewListItems	3059ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition AddListItems	3059ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition EditListItems	3059ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition DeleteListItems	3059ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ApproveItems	3059ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition OpenItems	3059ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ViewVersions	3059ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition DeleteVersions	3059ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition CancelCheckout	3059ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ManagePersonalViews	3059ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3490	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ManageLists	3059ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3646	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ViewFormPages	3060ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3646	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition AnonymousSearchAccessList	3060ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3646	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition Open	3060ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3651	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ViewPages	3060ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3651	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition AddAndCustomizePages	3060ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3651	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ApplyThemeAndBorder	3060ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3651	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ApplyStyleSheets	3060ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3651	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ViewUsageData	3060ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3651	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition CreateSSCSite	3060ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3657	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ManageSubwebs	3061ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3657	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition CreateGroups	3061ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3657	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ManagePermissions	3061ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3657	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition BrowseDirectories	3061ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3662	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition BrowseUserInfo	3061ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3662	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition AddDelPrivateWebParts	3061ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3662	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition UpdatePersonalWebParts	3061ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3662	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ManageWeb	3061ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3662	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition AnonymousSearchAccessWebLists	3061ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3662	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition UseClientIntegration	3061ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3662	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition UseRemoteAPIs	3061ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3666	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition ManageAlerts	3062ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3666	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition CreateAlerts	3062ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3666	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition EditMyUserInfo	3062ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3666	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition EnumeratePermissions	3062ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.3666	[Site Security]	[14]	[Debug]	Processing custom permissionKey definition FullMask	3062ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.6849	[Site Security]	[14]	[Debug]	Processing Role Assignment Microsoft.SharePoint.Client.RoleAssignment	3388ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.6849	[Site Security]	[14]	[Debug]	Processing Role Assignment Microsoft.SharePoint.Client.RoleAssignment	3388ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.6849	[Site Security]	[14]	[Debug]	Processing Role Assignment Microsoft.SharePoint.Client.RoleAssignment	3388ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.6849	[Site Security]	[14]	[Debug]	Processing Role Assignment Microsoft.SharePoint.Client.RoleAssignment	3389ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.6849	[Site Security]	[14]	[Debug]	Processing Role Assignment Microsoft.SharePoint.Client.RoleAssignment	3389ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.7005	[Site Security]	[14]	[Debug]	Code execution scope ended	3410ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:29:27.7368	[Term Groups]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:33:42.4573	[Term Groups]	[14]	[Debug]	Code execution scope ended	254719ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:33:42.5041	[Fields]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:01.2891	[Fields]	[14]	[Debug]	Code execution scope ended	18800ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:01.3360	[Content Types]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:08.6978	[Content Types]	[14]	[Debug]	Adding content type to template: 0x010085EC78BE64F9478AAE3ED069093B9963004A37C4B20C06FF4E85D6F87A91A460F1 - Project sites policy	7359ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:08.6978	[Content Types]	[14]	[Debug]	Code execution scope ended	7360ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:08.7659	[List instances]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:28.1845	[Get Security]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:28.6075	[Get Security]	[14]	[Debug]	Code execution scope ended	416ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:28.6097	[List instances]	[14]	[Debug]	Adding list: {res:List_Documents_Title} - Shared Documents	19836ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:34.3922	[Get Security]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:34.7122	[Get Security]	[14]	[Debug]	Code execution scope ended	319ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:34.7122	[List instances]	[14]	[Debug]	Adding list: {res:List_Form_Templates_Title} - FormServerTemplates	25934ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:40.9338	[Get Security]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:41.3502	[Get Security]	[14]	[Debug]	Code execution scope ended	415ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:34:41.3502	[List instances]	[14]	[Debug]	Adding list: {res:List_Med_POC_Pics_Title} - Med POC Pics	32573ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:17.0125	[Get Security]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:17.2887	[Get Security]	[14]	[Debug]	Code execution scope ended	285ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:17.2887	[List instances]	[14]	[Debug]	Adding list: {res:List_MicroFeed_Title} - Lists/PublishedFeed	68519ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:22.0947	[Get Security]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:22.2866	[Get Security]	[14]	[Debug]	Code execution scope ended	191ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:22.2866	[List instances]	[14]	[Debug]	Adding list: {res:List_Site_Assets_Title} - SiteAssets	73508ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:27.1978	[Get Security]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:27.4251	[Get Security]	[14]	[Debug]	Code execution scope ended	226ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:27.4256	[List instances]	[14]	[Debug]	Adding list: {res:List_Site_Pages_Title} - SitePages	78647ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:35.4637	[Get Security]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:35.6576	[Get Security]	[14]	[Debug]	Code execution scope ended	194ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:35.6576	[List instances]	[14]	[Debug]	Adding list: {res:List_Style_Library_Title} - Style Library	86879ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:45.9181	[Get Security]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:46.1419	[Get Security]	[14]	[Debug]	Code execution scope ended	213ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:46.1419	[List instances]	[14]	[Debug]	Adding list: {res:List_Wassup_Doc_Directory_Title} - Lists/Wassup Doc Directory	97363ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:46.1419	[List instances]	[14]	[Debug]	Code execution scope ended	97363ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:46.1742	[Features]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:46.7072	[Features]	[14]	[Debug]	Code execution scope ended	532ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:46.7231	[Composed Looks]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:46.7231	[Composed Looks]	[14]	[Information]	Retrieving current composed look	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:48.7232	[Composed Looks]	[14]	[Debug]	Code execution scope ended	2004ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:35:48.7445	[Page Contents]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:17.2692	[Page Contents]	[14]	[Debug]	Code execution scope ended	28509ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:17.2843	[Client Side Page Contents]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Warning: 0 : 2017-10-08 03:36:17.9898	[Client Side Page Contents]	[14]	[Information]	This page is not a valid client side page and can't be extracted. Underlying error = Page Home.aspx is not a "modern" client side page.	710ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:17.9898	[Client Side Page Contents]	[14]	[Debug]	Code execution scope ended	711ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:18.0054	[Property bag entries]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:18.9979	[Property bag entries]	[14]	[Debug]	Code execution scope ended	977ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:19.2926	[Workflows]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:21.0228	[Workflows]	[14]	[Debug]	Code execution scope ended	1720ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:21.0285	[Web Settings]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Warning: 0 : 2017-10-08 03:36:21.4078	[Web Settings]	[14]	[Information]	File is not necessarily located in the current web. Not retrieving /sites/cdn/Med POC Assets/health-care.jpg	371ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:21.4078	[Web Settings]	[14]	[Debug]	Code execution scope ended	371ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:21.8725	[Navigation]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:28.5467	[Navigation]	[14]	[Debug]	Code execution scope ended	6686ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:28.5784	[Image Renditions]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:29.3687	[Image Renditions]	[14]	[Debug]	Code execution scope ended	792ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:29.4372	[OfficeDevPnP.Core]	[0]	[Information]	File medsrc.en-US.resx saved to folder 	0ms	
+powershell.exe Information: 0 : 2017-10-08 03:36:29.4372	[Retrieve Template Info]	[14]	[Debug]	Code execution scope started	0ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:30.2634	[Retrieve Template Info]	[14]	[Debug]	Code execution scope ended	826ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:30.2634	[Extraction]	[14]	[Debug]	Code execution scope ended	432811ms	0b31d3a3-c7a0-4405-83d2-d9d8d660ee23
+powershell.exe Information: 0 : 2017-10-08 03:36:30.8288	[OfficeDevPnP.Core]	[0]	[Information]	File medsrc.xml saved to folder 	0ms	
+powershell.exe Information: 0 : 2017-10-08 03:36:30.9600	[OfficeDevPnP.Core]	[0]	[Information]	File medsrc.pnp saved to folder 	0ms	

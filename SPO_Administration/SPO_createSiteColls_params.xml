@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Config>
+	<Tenant>
+		<Admin
+			adminURL="https://sharepointsolver-admin.sharepoint.com"
+		/>
+    	<SiteColl
+			Url="https://sharepointsolver.sharepoint.com/sites/as-test1"
+            StorageQuota="1000"
+			Owner="sqlsolver@sharepointsolver.onmicrosoft.com"
+			Title="as-test1"
+			Template="STS#0"
+		/>
+    	<SiteColl
+			Url="https://sharepointsolver.sharepoint.com/sites/as-test2"
+            StorageQuota="1000"
+			Owner="sqlsolver@sharepointsolver.onmicrosoft.com"
+			Title="as-test2"
+			Template="BLANKINTERNETCONTAINER#0"
+		/>
+	</Tenant>
+</Config>

@@ -1,0 +1,215 @@
+powershell.exe Information: 0 : 10/8/2017 11:35:43 AM: f8c957ac-3496-4a5e-9022-23a625b784fd - AcquireTokenHandlerBase: === Token Acquisition started:
+	Authority: https://login.microsoftonline.com/common/
+	Resource: https://sharepointsolver-admin.sharepoint.com/
+	ClientId: 9bc3ab49-b65d-410a-85ad-de819febfddc
+	CacheType: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache (1 items)
+	Authentication Target: User
+	
+powershell.exe Information: 0 : 10/8/2017 11:35:43 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigating to 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://sharepointsolver-admin.sharepoint.com/&client_id=9bc3ab49-b65d-410a-85ad-de819febfddc&response_type=code&redirect_uri=https://oauth.spops.microsoft.com/&client-request-id=f8c957ac-3496-4a5e-9022-23a625b784fd&prompt=login&x-client-SKU=.NET&x-client-Ver=2.19.0.0&x-client-CPU=x64&x-client-OS=Microsoft Windows NT 10.0.15063.0'.
+powershell.exe Information: 0 : 10/8/2017 11:35:44 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigated to 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://sharepointsolver-admin.sharepoint.com/&client_id=9bc3ab49-b65d-410a-85ad-de819febfddc&response_type=code&redirect_uri=https://oauth.spops.microsoft.com/&client-request-id=f8c957ac-3496-4a5e-9022-23a625b784fd&prompt=login&x-client-SKU=.NET&x-client-Ver=2.19.0.0&x-client-CPU=x64&x-client-OS=Microsoft Windows NT 10.0.15063.0'.
+powershell.exe Information: 0 : 10/8/2017 11:35:59 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigating to 'https://login.microsoftonline.com/common/login'.
+powershell.exe Information: 0 : 10/8/2017 11:35:59 AM:  - WindowsFormsWebAuthenticationDialogBase: WebBrowser state: IsBusy: True, ReadyState: Complete, Created: True, Disposing: False, IsDisposed: False, IsOffline: False
+powershell.exe Information: 0 : 10/8/2017 11:35:59 AM:  - WindowsFormsWebAuthenticationDialogBase: WebBrowser state (after Stop): IsBusy: False, ReadyState: Complete, Created: True, Disposing: False, IsDisposed: False, IsOffline: False
+powershell.exe Information: 0 : 10/8/2017 11:36:00 AM: f8c957ac-3496-4a5e-9022-23a625b784fd - TokenCache: Storing token in the cache...
+powershell.exe Information: 0 : 10/8/2017 11:36:00 AM: f8c957ac-3496-4a5e-9022-23a625b784fd - TokenCache: An item was stored in the cache
+powershell.exe Information: 0 : 10/8/2017 11:36:00 AM: f8c957ac-3496-4a5e-9022-23a625b784fd - AcquireTokenHandlerBase: === Token Acquisition finished successfully. An access token was retuned:
+	Access Token Hash: RwhNmyEPRW3lPZJH0DmEOeoa+wKD7Es8K7G83tnyq68=
+	Refresh Token Hash: kc/w9V/lyQfrbn595cqRZjiuSDrQ0okIUNO+LPqqkZs=
+	Expiration Time: 10/8/2017 12:35:59 PM +00:00
+	User Hash: FrhjvYT3JVzzkOAKcP5SQzBKdq2d4pNXof3KocTCBsY=
+	
+powershell.exe Information: 0 : 2017-10-08 04:36:36.8834	[OfficeDevPnP.Core]	[0]	[Information]	File medsrc.pnp retrieved from folder 	0ms	
+powershell.exe Information: 0 : 2017-10-08 04:36:36.8834	[OfficeDevPnP.Core]	[0]	[Information]	File medsrc.pnp retrieved from folder 	0ms	
+powershell.exe Information: 0 : 2017-10-08 04:36:36.9839	[OfficeDevPnP.Core]	[0]	[Information]	File medsrc.xml retrieved from folder 	0ms	
+powershell.exe Information: 0 : 2017-10-08 04:36:37.3839	[Provisioning]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:37.3839	[Provisioning]	[14]	[Information]	ProgressDelegate registered	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:37.3839	[Provisioning]	[14]	[Information]	MessagesDelegate registered	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:43.3916	[OfficeDevPnP.Core]	[0]	[Information]	File medsrc.en-US.resx retrieved from folder 	0ms	
+powershell.exe Information: 0 : 2017-10-08 04:36:44.6949	[Extensibility Providers]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:44.6949	[Extensibility Providers]	[14]	[Debug]	Code execution scope ended	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:45.3951	[Regional Settings]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:45.7579	[Regional Settings]	[14]	[Debug]	Code execution scope ended	369ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:45.7907	[Supported UI Languages]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:46.9172	[Supported UI Languages]	[14]	[Debug]	Code execution scope ended	1133ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:46.9485	[Audit Settings]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:47.2481	[Audit Settings]	[14]	[Debug]	Code execution scope ended	307ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:47.2961	[Site Security]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:50.0295	[Site Security]	[14]	[Debug]	Code execution scope ended	2733ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:50.0607	[Features]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:50.5661	[Features]	[14]	[Debug]	Activating web scoped feature 7201d6a4-a5d3-49a1-8c19-19c4bac6e668	501ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:50.5661	[OfficeDevPnP.Core]	[0]	[Information]	Activating feature 7201d6a4-a5d3-49a1-8c19-19c4bac6e668 in web.	0ms	
+powershell.exe Information: 0 : 2017-10-08 04:36:50.9463	[OfficeDevPnP.Core]	[0]	[Information]	Feature activation for 7201d6a4-a5d3-49a1-8c19-19c4bac6e668 returned success.	0ms	
+powershell.exe Information: 0 : 2017-10-08 04:36:50.9463	[Features]	[14]	[Debug]	Code execution scope ended	879ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:36:50.9997	[Term Groups]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:41:32.2236	[Term Groups]	[14]	[Debug]	Code execution scope ended	281219ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:41:32.2843	[List instances]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:41:33.1679	[List instances]	[14]	[Debug]	Updating list {res:List_Documents_Title}	884ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:41:36.6439	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title}	4355ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:41:38.3141	[List instances]	[14]	[Debug]	Creating list {res:List_Med_POC_Pics_Title}	6030ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:41:56.7509	[List instances]	[14]	[Debug]	Updating list {res:List_MicroFeed_Title}	24468ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:42:21.4127	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Assets_Title}	49119ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:42:25.8717	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Pages_Title}	53587ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:42:42.2275	[List instances]	[14]	[Debug]	Updating list {res:List_Style_Library_Title}	69937ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:42:43.9451	[List instances]	[14]	[Debug]	Creating list {res:List_Wassup_Doc_Directory_Title}	71657ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:42:52.4920	[List instances]	[14]	[Debug]	Updating list {res:List_Documents_Title} with FieldRef _ComplianceFlags	80203ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:42:54.2826	[List instances]	[14]	[Debug]	Updating list {res:List_Documents_Title} with FieldRef _ComplianceTag	81986ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:42:57.3112	[List instances]	[14]	[Debug]	Updating list {res:List_Documents_Title} with FieldRef _ComplianceTagWrittenTime	85021ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:00.3807	[List instances]	[14]	[Debug]	Updating list {res:List_Documents_Title} with FieldRef _ComplianceTagUserId	88092ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:02.7346	[List instances]	[14]	[Debug]	Updating list {res:List_Documents_Title} with FieldRef _IsRecord	90441ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:04.8497	[List instances]	[14]	[Debug]	Updating list {res:List_Documents_Title} with FieldRef ComplianceAssetId	92552ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:08.4716	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef ComplianceAssetId	96174ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:10.9250	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef FormName	98634ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:13.6918	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef FormCategory	101407ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:16.5280	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef FormVersion	104229ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:19.0345	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef FormId	106744ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:20.9066	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef FormLocale	108623ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:23.1681	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef FormDescription	110869ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:26.0919	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef ShowInCatalog	113801ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:28.2076	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef LinkTemplateName	115914ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:30.3650	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef _ComplianceFlags	118077ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:32.1369	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef _ComplianceTag	119843ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:33.5385	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef _ComplianceTagWrittenTime	121249ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:35.5911	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef _ComplianceTagUserId	123302ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:38.5804	[List instances]	[14]	[Debug]	Updating list {res:List_Form_Templates_Title} with FieldRef _IsRecord	126280ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:41.2812	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef _ComplianceFlags	128990ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:43.5508	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef _ComplianceTag	131252ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:45.8504	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef _ComplianceTagWrittenTime	133550ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:47.1671	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef _ComplianceTagUserId	134879ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:48.9692	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef _IsRecord	136672ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:50.6092	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef ComplianceAssetId	138314ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:51.9380	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef PreviewOnForm	139643ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:53.8032	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef FileType	141509ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:54.7216	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef ImageSize	142428ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:57.7210	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef ImageWidth	145418ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:43:58.8504	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef ImageHeight	146555ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:00.6539	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef ImageCreateDate	148363ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:02.0520	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef Description	149761ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:03.2842	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef SelectedFlag	150994ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:04.4580	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef NameOrTitle	152167ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:05.7910	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef RequiredField	153492ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:07.0616	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef Keywords	154760ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:08.3936	[List instances]	[14]	[Debug]	Updating list {res:List_Med_POC_Pics_Title} with FieldRef Thumbnail	156092ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:09.9277	[List instances]	[14]	[Debug]	Updating list {res:List_MicroFeed_Title} with FieldRef j33b1bc20532487296f1bbbdead35a56	157624ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:10.7661	[List instances]	[14]	[Debug]	Updating list {res:List_MicroFeed_Title} with FieldRef LikesCount	158472ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:11.6978	[List instances]	[14]	[Debug]	Updating list {res:List_MicroFeed_Title} with FieldRef LikedBy	159403ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:13.1846	[List instances]	[14]	[Debug]	Updating list {res:List_MicroFeed_Title} with FieldRef HashTags	160888ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:14.2372	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Assets_Title} with FieldRef _ComplianceFlags	161942ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:15.1663	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Assets_Title} with FieldRef _ComplianceTag	162863ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:16.4566	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Assets_Title} with FieldRef _ComplianceTagWrittenTime	164166ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:17.3733	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Assets_Title} with FieldRef _ComplianceTagUserId	165084ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:19.0266	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Assets_Title} with FieldRef _IsRecord	166727ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:20.1228	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Assets_Title} with FieldRef ComplianceAssetId	167827ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:21.8138	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Pages_Title} with FieldRef WikiField	169509ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:22.6138	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Pages_Title} with FieldRef CanvasContent1	170312ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:23.7104	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Pages_Title} with FieldRef BannerImageUrl	171406ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:25.0364	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Pages_Title} with FieldRef Description	172745ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:26.2391	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Pages_Title} with FieldRef PromotedState	173949ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:27.5276	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Pages_Title} with FieldRef FirstPublishedDate	175232ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:28.7383	[List instances]	[14]	[Debug]	Updating list {res:List_Site_Pages_Title} with FieldRef LayoutWebpartsContent	176441ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:30.5450	[List instances]	[14]	[Debug]	Updating list {res:List_Style_Library_Title} with FieldRef _ComplianceFlags	178243ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:31.3958	[List instances]	[14]	[Debug]	Updating list {res:List_Style_Library_Title} with FieldRef _ComplianceTag	179102ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:32.5799	[List instances]	[14]	[Debug]	Updating list {res:List_Style_Library_Title} with FieldRef _ComplianceTagWrittenTime	180274ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:33.8655	[List instances]	[14]	[Debug]	Updating list {res:List_Style_Library_Title} with FieldRef _ComplianceTagUserId	181572ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:34.8357	[List instances]	[14]	[Debug]	Updating list {res:List_Style_Library_Title} with FieldRef _IsRecord	182538ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:36.7679	[List instances]	[14]	[Debug]	Updating list {res:List_Style_Library_Title} with FieldRef ComplianceAssetId	184462ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:39.2828	[List instances]	[14]	[Debug]	Updating list {res:List_Wassup_Doc_Directory_Title} with FieldRef _ComplianceFlags	186977ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:40.7154	[List instances]	[14]	[Debug]	Updating list {res:List_Wassup_Doc_Directory_Title} with FieldRef _ComplianceTag	188411ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:42.3016	[List instances]	[14]	[Debug]	Updating list {res:List_Wassup_Doc_Directory_Title} with FieldRef _ComplianceTagWrittenTime	190002ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:43.5341	[List instances]	[14]	[Debug]	Updating list {res:List_Wassup_Doc_Directory_Title} with FieldRef _ComplianceTagUserId	191231ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:44.9193	[List instances]	[14]	[Debug]	Updating list {res:List_Wassup_Doc_Directory_Title} with FieldRef _IsRecord	192614ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:46.4068	[List instances]	[14]	[Debug]	Updating list {res:List_Wassup_Doc_Directory_Title} with FieldRef ComplianceAssetId	194100ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:48.8766	[List instances]	[14]	[Debug]	Updating field d307dff3-340f-44a2-9f4b-fbfe1ba07459	196571ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:52.1842	[List instances]	[14]	[Debug]	Updating field db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c	199880ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:54.9065	[List instances]	[14]	[Debug]	Updating field d307dff3-340f-44a2-9f4b-fbfe1ba07459	202599ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:56.6825	[List instances]	[14]	[Debug]	Updating field db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c	204381ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:44:59.2210	[List instances]	[14]	[Debug]	Updating field d307dff3-340f-44a2-9f4b-fbfe1ba07459	206916ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:01.3263	[List instances]	[14]	[Debug]	Updating field db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c	209024ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:02.6958	[List instances]	[14]	[Debug]	Updating field 35329af5-04eb-44ee-89ae-9b5e4b5ecd9d	210395ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:03.9673	[List instances]	[14]	[Debug]	Updating field 6e4c2103-dea2-4b81-bc0a-410a7a812a05	211670ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:05.4890	[List instances]	[14]	[Debug]	Updating field de90c424-0414-4d3c-a6d0-a8090fc2f731	213181ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:07.2646	[List instances]	[14]	[Debug]	Updating field 9ce2079a-cf0d-479f-ae35-48229641a003	214971ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:09.0017	[List instances]	[14]	[Debug]	Updating field d573c999-f181-4015-88fd-72d7c135e1d6	216705ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:10.3357	[List instances]	[14]	[Debug]	Updating field 8d68c714-9453-45d4-857e-c134308f1047	218040ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:11.5938	[List instances]	[14]	[Debug]	Updating field 5f460546-df7d-489d-99fd-677d26f68e30	219285ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:12.9863	[List instances]	[14]	[Debug]	Updating field 5d8af039-7778-4004-b934-c9c348059309	220677ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:14.1571	[List instances]	[14]	[Debug]	Updating field 5611398e-c664-46c8-8d34-427ae046cc31	221859ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:15.3449	[List instances]	[14]	[Debug]	Updating field 37c1e42e-8f43-4767-b51b-901fa7c19f00	223049ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:16.8012	[List instances]	[14]	[Debug]	Updating field ec8e7d18-467b-4f6e-9607-e4f015dc63d9	224506ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:18.9489	[List instances]	[14]	[Debug]	Updating field fa2e7421-b52a-4fb7-afc2-c348144b4850	226650ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:20.9669	[List instances]	[14]	[Debug]	Updating field 4709c48f-0bbe-47e6-9b19-deb852cb3ea4	228658ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:22.9492	[List instances]	[14]	[Debug]	Updating field fa830350-bc6c-4931-ba2f-b3078fef4554	230639ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:25.6572	[List instances]	[14]	[Debug]	Updating field e24e486f-3717-433c-91fc-edd848c2c483	233361ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:28.4594	[List instances]	[14]	[Debug]	Updating field a1728d72-f862-40d5-b3a8-4e394faba47a	236149ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:30.9305	[List instances]	[14]	[Debug]	Updating field d20e68a2-693a-470a-8349-a972ab3a7f0d	238634ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:33.1190	[List instances]	[14]	[Debug]	Updating field 2de40ff2-1313-4ae9-a927-f460493ae86f	240809ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:35.2673	[List instances]	[14]	[Debug]	Updating field 4c074db2-ce03-406e-a23a-36153af6da2d	242956ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:37.3027	[List instances]	[14]	[Debug]	Updating field 9c2e087c-0aae-49e0-a354-6853f4066acb	245001ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:39.4267	[List instances]	[14]	[Debug]	Updating field d69707f1-8cb7-4318-8deb-fea7ed53df41	247129ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:41.5931	[List instances]	[14]	[Debug]	Updating field e1d22b08-cc0c-45d2-88f6-eb53529065e3	249285ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:43.2738	[List instances]	[14]	[Debug]	Updating field 35479e24-035c-4fa0-9605-da97647aa69e	250962ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:44.5963	[List instances]	[14]	[Debug]	Updating field 39c851ac-bc40-4481-adeb-945f56ac2e1d	252286ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:46.2356	[List instances]	[14]	[Debug]	Updating field 234c9611-d3e4-413b-a5b6-cf0fa773ca24	253932ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:48.4385	[List instances]	[14]	[Debug]	Updating field 41680d11-1cb0-4c7b-bc3e-85477635f116	256130ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:51.0353	[List instances]	[14]	[Debug]	Updating field bcf8a38f-b56b-4aee-a2d8-e85eff78fdff	258734ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:54.0396	[List instances]	[14]	[Debug]	Updating field 6804f2b3-ba6b-4147-81d0-d025b76a82c4	261728ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:45:57.3020	[List instances]	[14]	[Debug]	Updating field 79f148db-dcf4-4728-8744-3aa9a3669a12	264989ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:00.5476	[List instances]	[14]	[Debug]	Updating field b8448c28-0729-4d4f-9f38-8299291df5d3	268234ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:04.3208	[List instances]	[14]	[Debug]	Updating field 84a29bc8-2234-42af-9961-e3cf1d3e11b4	272011ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:05.8062	[List instances]	[14]	[Debug]	Updating field 53abf914-9726-4da7-b43f-7e8fb3568071	273495ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:07.1925	[List instances]	[14]	[Debug]	Updating field 8dc7f8e0-41ac-4c89-a6f5-d33ffa058ef5	274878ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:08.6086	[List instances]	[14]	[Debug]	Updating field 0a27b050-40cf-4dc4-8eab-7e85936cfed4	276302ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:09.7081	[List instances]	[14]	[Debug]	Updating field 51083506-6bfb-4a54-be38-55816210c7aa	277394ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:11.3780	[List instances]	[14]	[Debug]	Updating field d307dff3-340f-44a2-9f4b-fbfe1ba07459	279075ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:12.5291	[List instances]	[14]	[Debug]	Updating field db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c	280221ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:14.7205	[List instances]	[14]	[Debug]	Updating field d307dff3-340f-44a2-9f4b-fbfe1ba07459	282418ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:17.9739	[List instances]	[14]	[Debug]	Updating field db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c	285667ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:21.6137	[List instances]	[14]	[Debug]	Updating field d307dff3-340f-44a2-9f4b-fbfe1ba07459	289305ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:24.1796	[List instances]	[14]	[Debug]	Updating field db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c	291865ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:26.9340	[List instances]	[14]	[Debug]	Creating field 5bb4410b-189d-44f8-842f-de20854dfd85	294618ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:27.5059	[List instances]	[14]	[Debug]	Creating field 18fa2ca9-5a61-48bf-b975-b9b0c18d6bb2	295197ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:28.0710	[List instances]	[14]	[Debug]	Creating field 6d3d81df-8c0b-425e-9db8-d25afa8fb93a	295765ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:28.7931	[List instances]	[14]	[Debug]	Creating field 97a6b4cc-05a6-4fa0-87df-c210a47e3bd1	296489ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:30.0413	[List instances]	[14]	[Debug]	Creating field fb946338-3afb-4660-ade2-74910aae4df9	297726ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:32.1596	[List instances]	[14]	[Debug]	Creating field 04f88a30-c713-46b8-ac48-8a8e5f0012df	299845ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:35.0644	[List instances]	[14]	[Debug]	Creating field 2f9e7633-b8e7-4fc8-95a2-ee783b7a239f	302755ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:38.3179	[List instances]	[14]	[Debug]	Creating field dbda0cce-4051-4e9c-8893-1ecf822aa192	306008ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:40.5106	[List instances]	[14]	[Debug]	Creating view All Documents	308194ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:43.5464	[List instances]	[14]	[Debug]	Creating view All Documents	311231ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:44.9842	[List instances]	[14]	[Debug]	Creating view All Forms	312667ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:47.2346	[List instances]	[14]	[Debug]	Creating view All Pictures	314931ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:49.4215	[List instances]	[14]	[Debug]	Creating view Thumbnails	317109ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:51.9418	[List instances]	[14]	[Debug]	Creating view Slides	319630ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:53.6604	[List instances]	[14]	[Debug]	Creating view All Items	321349ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:55.3838	[List instances]	[14]	[Debug]	Creating view All Documents	323074ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:56.8992	[List instances]	[14]	[Debug]	Creating view By Author	324588ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:46:58.4872	[List instances]	[14]	[Debug]	Creating view Created By Me	326180ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:00.2522	[List instances]	[14]	[Debug]	Creating view By Editor	327934ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:01.6585	[List instances]	[14]	[Debug]	Creating view Recent Changes	329348ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:02.8911	[List instances]	[14]	[Debug]	Creating view All Pages	330585ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:04.4108	[List instances]	[14]	[Debug]	Creating view All Documents	332101ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:06.4663	[List instances]	[14]	[Debug]	Creating view All Items	334158ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:10.3809	[List instances]	[14]	[Debug]	Code execution scope ended	338065ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:10.3809	[Lookup Fields]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Warning: 0 : 2017-10-08 04:47:29.1351	[OfficeDevPnP.Core]	[0]	[Information]	Unable to find lookup list with Id: 697b2644-4285-49c5-88ed-090b6b67acb7	0ms	
+powershell.exe Warning: 0 : 2017-10-08 04:47:29.4560	[OfficeDevPnP.Core]	[0]	[Information]	Unable to find lookup list with Id: 697b2644-4285-49c5-88ed-090b6b67acb7	0ms	
+powershell.exe Warning: 0 : 2017-10-08 04:47:29.8203	[OfficeDevPnP.Core]	[0]	[Information]	Unable to find lookup list with Id: 697b2644-4285-49c5-88ed-090b6b67acb7	0ms	
+powershell.exe Information: 0 : 2017-10-08 04:47:29.8203	[Lookup Fields]	[14]	[Debug]	Code execution scope ended	19435ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:29.8569	[Pages]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:30.6421	[Pages]	[14]	[Debug]	Overwriting existing page /sites/medtrgt/SitePages/Home.aspx	793ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:48.3071	[Pages]	[14]	[Debug]	Code execution scope ended	18465ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:48.3395	[Composed Looks]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:47:50.3428	[OfficeDevPnP.Core]	[0]	[Information]	Setting master URL '/sites/medtrgt/_catalogs/masterpage/seattle.master' in '/sites/medtrgt'.	0ms	
+powershell.exe Information: 0 : 2017-10-08 04:47:51.0484	[OfficeDevPnP.Core]	[0]	[Information]	Setting custom master URL '/sites/medtrgt/_catalogs/masterpage/seattle.master' in '/sites/medtrgt'.	0ms	
+powershell.exe Information: 0 : 2017-10-08 04:47:51.6433	[OfficeDevPnP.Core]	[0]	[Information]	Applying theme '/sites/medtrgt/_catalogs/theme/15/palette006.spcolor' in '/sites/medtrgt'	0ms	
+powershell.exe Information: 0 : 2017-10-08 04:48:09.3650	[OfficeDevPnP.Core]	[0]	[Information]	Updating composed look 'Current' in '/sites/medtrgt'	0ms	
+powershell.exe Information: 0 : 2017-10-08 04:48:11.5979	[Composed Looks]	[14]	[Debug]	Code execution scope ended	23264ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:48:11.6150	[Property bag entries]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:48:13.0685	[Property bag entries]	[14]	[Debug]	Creating new propertybag entry DesignPreviewThemedCssFolderUrl with value {themecatalog}/Themed/44459BA2	1457ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:48:15.5394	[Property bag entries]	[14]	[Debug]	Code execution scope ended	3929ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:48:15.5551	[Web Settings]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:48:17.8850	[Web Settings]	[14]	[Debug]	Code execution scope ended	2328ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:48:18.3864	[Navigation]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:48:28.5776	[Navigation]	[14]	[Debug]	Code execution scope ended	10189ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:48:28.5776	[Persist Template Info]	[14]	[Debug]	Code execution scope started	0ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:48:30.9655	[Persist Template Info]	[14]	[Debug]	Code execution scope ended	2380ms	cbc9eb7d-5469-4e51-b458-a074703bab5c
+powershell.exe Information: 0 : 2017-10-08 04:48:30.9655	[Provisioning]	[14]	[Debug]	Code execution scope ended	713553ms	cbc9eb7d-5469-4e51-b458-a074703bab5c

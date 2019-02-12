@@ -1,0 +1,27 @@
+powershell.exe Information: 0 : 10/8/2017 9:58:59 AM: baa6fca0-1409-4d73-af69-95be360df3e8 - AcquireTokenHandlerBase: === Token Acquisition started:
+	Authority: https://login.microsoftonline.com/common/
+	Resource: https://sharepointsolver-admin.sharepoint.com/
+	ClientId: 9bc3ab49-b65d-410a-85ad-de819febfddc
+	CacheType: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache (1 items)
+	Authentication Target: User
+	
+powershell.exe Information: 0 : 10/8/2017 9:58:59 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigating to 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://sharepointsolver-admin.sharepoint.com/&client_id=9bc3ab49-b65d-410a-85ad-de819febfddc&response_type=code&redirect_uri=https://oauth.spops.microsoft.com/&client-request-id=baa6fca0-1409-4d73-af69-95be360df3e8&prompt=login&x-client-SKU=.NET&x-client-Ver=2.19.0.0&x-client-CPU=x64&x-client-OS=Microsoft Windows NT 10.0.15063.0'.
+powershell.exe Information: 0 : 10/8/2017 9:59:00 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigated to 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://sharepointsolver-admin.sharepoint.com/&client_id=9bc3ab49-b65d-410a-85ad-de819febfddc&response_type=code&redirect_uri=https://oauth.spops.microsoft.com/&client-request-id=baa6fca0-1409-4d73-af69-95be360df3e8&prompt=login&x-client-SKU=.NET&x-client-Ver=2.19.0.0&x-client-CPU=x64&x-client-OS=Microsoft Windows NT 10.0.15063.0'.
+powershell.exe Information: 0 : 10/8/2017 9:59:18 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigating to 'https://login.microsoftonline.com/common/login'.
+powershell.exe Information: 0 : 10/8/2017 9:59:19 AM:  - WindowsFormsWebAuthenticationDialogBase: WebBrowser state: IsBusy: True, ReadyState: Complete, Created: True, Disposing: False, IsDisposed: False, IsOffline: False
+powershell.exe Information: 0 : 10/8/2017 9:59:19 AM:  - WindowsFormsWebAuthenticationDialogBase: WebBrowser state (after Stop): IsBusy: False, ReadyState: Complete, Created: True, Disposing: False, IsDisposed: False, IsOffline: False
+powershell.exe Information: 0 : 10/8/2017 9:59:19 AM: baa6fca0-1409-4d73-af69-95be360df3e8 - TokenCache: Storing token in the cache...
+powershell.exe Information: 0 : 10/8/2017 9:59:19 AM: baa6fca0-1409-4d73-af69-95be360df3e8 - TokenCache: An item was stored in the cache
+powershell.exe Information: 0 : 10/8/2017 9:59:19 AM: baa6fca0-1409-4d73-af69-95be360df3e8 - AcquireTokenHandlerBase: === Token Acquisition finished successfully. An access token was retuned:
+	Access Token Hash: Uz3hpVWAr9rkX2xg7k7AQLOBCtkv6jKOgNBxTGOo0+8=
+	Refresh Token Hash: tWvli2zpjNZTSELswS4zNvUrFh+C5a0FnoEbUycthQc=
+	Expiration Time: 10/8/2017 10:59:18 AM +00:00
+	User Hash: FrhjvYT3JVzzkOAKcP5SQzBKdq2d4pNXof3KocTCBsY=
+	
+powershell.exe Error: 0 : 2017-10-08 02:59:25.0196	[OfficeDevPnP.Core]	[0]	[Error]	ExecuteQuery threw following exception: System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContextExtensions.ExecuteQueryImplementation(ClientRuntimeContext clientContext, Int32 retryCount, Int32 delay).	0ms	

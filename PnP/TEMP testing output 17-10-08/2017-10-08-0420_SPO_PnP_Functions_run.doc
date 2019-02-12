@@ -1,0 +1,20 @@
+powershell.exe Information: 0 : 10/8/2017 11:20:54 AM: a0c7bb93-722f-4daa-9ca5-a22508d45f68 - AcquireTokenHandlerBase: === Token Acquisition started:
+	Authority: https://login.microsoftonline.com/common/
+	Resource: https://sharepointsolver-admin.sharepoint.com/
+	ClientId: 9bc3ab49-b65d-410a-85ad-de819febfddc
+	CacheType: Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache (1 items)
+	Authentication Target: User
+	
+powershell.exe Information: 0 : 10/8/2017 11:20:54 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigating to 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://sharepointsolver-admin.sharepoint.com/&client_id=9bc3ab49-b65d-410a-85ad-de819febfddc&response_type=code&redirect_uri=https://oauth.spops.microsoft.com/&client-request-id=a0c7bb93-722f-4daa-9ca5-a22508d45f68&prompt=login&x-client-SKU=.NET&x-client-Ver=2.19.0.0&x-client-CPU=x64&x-client-OS=Microsoft Windows NT 10.0.15063.0'.
+powershell.exe Information: 0 : 10/8/2017 11:20:55 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigated to 'https://login.microsoftonline.com/common/oauth2/authorize?resource=https://sharepointsolver-admin.sharepoint.com/&client_id=9bc3ab49-b65d-410a-85ad-de819febfddc&response_type=code&redirect_uri=https://oauth.spops.microsoft.com/&client-request-id=a0c7bb93-722f-4daa-9ca5-a22508d45f68&prompt=login&x-client-SKU=.NET&x-client-Ver=2.19.0.0&x-client-CPU=x64&x-client-OS=Microsoft Windows NT 10.0.15063.0'.
+powershell.exe Information: 0 : 10/8/2017 11:21:20 AM:  - WindowsFormsWebAuthenticationDialogBase: Navigating to 'https://login.microsoftonline.com/common/login'.
+powershell.exe Information: 0 : 10/8/2017 11:21:20 AM:  - WindowsFormsWebAuthenticationDialogBase: WebBrowser state: IsBusy: True, ReadyState: Complete, Created: True, Disposing: False, IsDisposed: False, IsOffline: False
+powershell.exe Information: 0 : 10/8/2017 11:21:20 AM:  - WindowsFormsWebAuthenticationDialogBase: WebBrowser state (after Stop): IsBusy: False, ReadyState: Complete, Created: True, Disposing: False, IsDisposed: False, IsOffline: False
+powershell.exe Information: 0 : 10/8/2017 11:21:21 AM: a0c7bb93-722f-4daa-9ca5-a22508d45f68 - TokenCache: Storing token in the cache...
+powershell.exe Information: 0 : 10/8/2017 11:21:21 AM: a0c7bb93-722f-4daa-9ca5-a22508d45f68 - TokenCache: An item was stored in the cache
+powershell.exe Information: 0 : 10/8/2017 11:21:21 AM: a0c7bb93-722f-4daa-9ca5-a22508d45f68 - AcquireTokenHandlerBase: === Token Acquisition finished successfully. An access token was retuned:
+	Access Token Hash: DYDD8ObdQ0SlsHo0d+0zRRyiNwsgA5wy4FpUlRlvUhM=
+	Refresh Token Hash: CeqMX1JGkP+HAYNIQeghsNCayY9dQecWxrbofKUKCS0=
+	Expiration Time: 10/8/2017 12:21:20 PM +00:00
+	User Hash: FrhjvYT3JVzzkOAKcP5SQzBKdq2d4pNXof3KocTCBsY=
+	

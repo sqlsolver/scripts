@@ -1,0 +1,42 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171008043214
+Username: MAGENIC\RamonaM
+RunAs User: MAGENIC\RamonaM
+Machine: RAMONAM-PC3 (Microsoft Windows NT 10.0.15063.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking;
+Process ID: 1736
+PSVersion: 5.1.15063.632
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.15063.632
+BuildVersion: 10.0.15063.632
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\2017-10-08-0432_SPO_PnP_Functions.log
+================ PnP Function Chooser ================
+1: Press '1' to create a new Site Collection.
+2: Press '2' to create a new subweb.
+3: Press '3' to extract a site template from an existing Site Collection.
+4: Press '4' to extract a template from an existing subweb.
+5: Press '5' to apply a site template to an existing SiteCollection.
+6: Press '6' to apply a template to an existing subweb.
+Q: Press 'Q' to quit.
+PS C:\users\ramonam\onedrive\magenic\vs\scripts\pnp> TerminatingError(Connect-PnPOnline): "Invalid URI: The hostname could not be parsed."
+>> TerminatingError(Connect-PnPOnline): "Invalid URI: The hostname could not be parsed."
+Invalid URI: The hostname could not be parsed.
+
+The error is:
+Invalid URI: The hostname could not be parsed.
+PS C:\users\ramonam\onedrive\magenic\vs\scripts\pnp> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\users\ramonam\onedrive\magenic\vs\scripts\pnp> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20171008043243
+**********************

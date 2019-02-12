@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" ?>
+<Accounts>
+	<Account
+		username="NA\colwfesvc"
+		password="c0lwfesvc01"
+	/>
+	<Account
+		username="NA\colspsvcs"
+		password="c0lspsvcs01"
+	/>
+	<Account
+		username="NA\colctwts"
+		password="c0lctwts01"
+	/>
+	<Account
+		username="NA\colsprusr"
+		password="c0lsprusr01"
+	/>
+	<Account
+		username="NA\colsprrdr"
+		password="c0lsprrdr01"
+	/>
+	<Account
+		username="NA\colxclusr"
+		password="c0lxclusr01"
+	/>
+	<Account
+		username="NA\colvisiousr"
+		password="c0lvisiousr01"
+	/>
+	<Account
+		username="NA\colprfptusr"
+		password="c0lprfptusr01"
+	/>
+	<Account
+		username="NA\colusrprfl"
+		password="c0lusrprfl01"
+	/>
+	<Account
+		username="NA\colusrprflsync"
+		password="c0lusrprflsync01"
+	/>
+	<Account
+		username="NA\colsrchcrwl"
+		password="c0lsrchcrwl01"
+	/>
+</Accounts>

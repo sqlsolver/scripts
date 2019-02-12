@@ -1,8 +1,0 @@
-FirstName,LastName,SamAccountName,Title,Manager
-SharePoint,Install Account,sp_install,Service Account	
-SharePoint,Farm Account,sp_farm,Service Account	
-SharePoint,Web App Account,sp_webapps,Service Account	
-SharePoint,Service App Account,sp_serviceapps,Service Account	
-SharePoint,Profile Account,sp_profile,Service Account	
-SharePoint,Search Content Crawl,sp_content,Service Account	
-sqluser,SQL Service Account,sqluser,Service Account	

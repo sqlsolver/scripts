@@ -1,0 +1,81 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20171008023335
+Username: MAGENIC\RamonaM
+RunAs User: MAGENIC\RamonaM
+Machine: RAMONAM-PC3 (Microsoft Windows NT 10.0.15063.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking;
+Process ID: 1736
+PSVersion: 5.1.15063.632
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.15063.632
+BuildVersion: 10.0.15063.632
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\2017-10-08-0233_SPO_PnP_Functions.log
+================ PnP Function Chooser ================
+1: Press '1' to create a new Site Collection.
+2: Press '2' to create a new subweb.
+3: Press '3' to extract a site template from an existing Site Collection.
+3: Press '4' to extract a site template from an existing subweb.
+5: Press '4' to apply a site template to an existing site or subsite.
+Q: Press 'Q' to quit.
+Attempting to download template package from
+https://sharepointsolver.sharepoint.com/sites/medsrc/
+PS C:\users\ramonam\onedrive\magenic\vs\scripts\pnp> TerminatingError(Connect-PnPOnline): "The remote server returned an error: (403) Forbidden."
+Connect-PnPOnline : The remote server returned an error: (403) Forbidden.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:50 char:2
++     Connect-PnPOnline -Url $srcSite -CurrentCredentials
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Connect-PnPOnline], WebException
+    + FullyQualifiedErrorId : System.Net.WebException,SharePointPnP.PowerShell.Commands.Base.ConnectOnline
+Connect-PnPOnline : The remote server returned an error: (403) Forbidden.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:50 char:2
++     Connect-PnPOnline -Url $srcSite -CurrentCredentials
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Connect-PnPOnline], WebException
+    + FullyQualifiedErrorId : System.Net.WebException,SharePointPnP.PowerShell.Commands.Base.ConnectOnline
+
+>> TerminatingError(Get-PnPProvisioningTemplate): "A parameter cannot be found that matches parameter name 'Url'."
+A parameter cannot be found that matches parameter name 'Url'.
+A parameter cannot be found that matches parameter name 'Url'.
+================ PnP Function Chooser ================
+1: Press '1' to create a new Site Collection.
+2: Press '2' to create a new subweb.
+3: Press '3' to extract a site template from an existing Site Collection.
+3: Press '4' to extract a site template from an existing subweb.
+5: Press '4' to apply a site template to an existing site or subsite.
+Q: Press 'Q' to quit.
+Attempting to download template package from
+https://sharepointsolver.sharepoint.com/sites/medsrc/
+PS C:\users\ramonam\onedrive\magenic\vs\scripts\pnp> TerminatingError(Connect-PnPOnline): "The remote server returned an error: (403) Forbidden."
+Connect-PnPOnline : The remote server returned an error: (403) Forbidden.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:50 char:2
++     Connect-PnPOnline -Url $srcSite -CurrentCredentials
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Connect-PnPOnline], WebException
+    + FullyQualifiedErrorId : System.Net.WebException,SharePointPnP.PowerShell.Commands.Base.ConnectOnline
+Connect-PnPOnline : The remote server returned an error: (403) Forbidden.
+At C:\users\ramonam\onedrive\magenic\vs\scripts\pnp\SPO_PnP_Functions.ps1:50 char:2
++     Connect-PnPOnline -Url $srcSite -CurrentCredentials
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Connect-PnPOnline], WebException
+    + FullyQualifiedErrorId : System.Net.WebException,SharePointPnP.PowerShell.Commands.Base.ConnectOnline
+
+>> TerminatingError(Get-PnPProvisioningTemplate): "A parameter cannot be found that matches parameter name 'Url'."
+A parameter cannot be found that matches parameter name 'Url'.
+A parameter cannot be found that matches parameter name 'Url'.
+================ PnP Function Chooser ================
+1: Press '1' to create a new Site Collection.
+2: Press '2' to create a new subweb.
+3: Press '3' to extract a site template from an existing Site Collection.
+3: Press '4' to extract a site template from an existing subweb.
+5: Press '4' to apply a site template to an existing site or subsite.
+Q: Press 'Q' to quit.
+**********************
+Windows PowerShell transcript end
+End time: 20171008023421
+**********************
